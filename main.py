@@ -391,270 +391,269 @@ def open_source():
 def proprietary():
     print("Proprietary Software \nSoftware with restricted access to the source code \nOwned and controlled by a company \nIncludes Windows, macOS, Adobe Photoshop")
 
-
-    def search_definition():
-        keyword = input("Enter a keyword: ")
-        if keyword == "cpu":
-            cpu()
-        elif keyword == "fetch_execute":
-            fetch_execute()
-        elif keyword == "cu":
-            cu()
-        elif keyword == "registers":
-            registers()
-        elif keyword == "von_neumann":
-            von_neumann()
-        elif keyword == "mar":
-            mar()
-        elif keyword == "mdr":
-            mdr()
-        elif keyword == "pc":
-            pc()
-        elif keyword == "accumulator":
-            accumulator()
-        elif keyword == "clock_speed":
-            clock_speed()
-        elif keyword == "cache_size":
-            cache_size()
-        elif keyword == "cores":
-            cores()
-        elif keyword == "embedded_systems":
-            embedded_systems()
-        elif keyword == "primary_storage":
-            primary_storage()
-        elif keyword == "ram":
-            ram()
-        elif keyword == "rom":
-            rom()
-        elif keyword == "virtual_memory":
-            virtual_memory()
-        elif keyword == "secondary_storage":
-            secondary_storage()
-        elif keyword == "optical_storage":
-            optical_storage()
-        elif keyword == "magnetic_storage":
-            magnetic_storage()
-        elif keyword == "solid_state_storage":
-            solid_state_storage()
-        elif keyword == "storage_capacity":
-            storage_capacity()
-        elif keyword == "storage_speed":
-            storage_speed()
-        elif keyword == "storage_portability":
-            storage_portability()
-        elif keyword == "storage_durability":
-            storage_durability()
-        elif keyword == "storage_reliability":
-            storage_reliability()
-        elif keyword == "storage_cost":
-            storage_cost()
-        elif keyword == "bit":
-            bit()
-        elif keyword == "nibble":
-            nibble()
-        elif keyword == "byte":
-            byte()
-        elif keyword == "kilobyte":
-            kilobyte()
-        elif keyword == "megabyte":
-            megabyte()
-        elif keyword == "gigabyte":
-            gigabyte()
-        elif keyword == "terabyte":
-            terabyte()
-        elif keyword == "petabyte":
-            petabyte()
-        elif keyword == "denary":
-            denary()
-        elif keyword == "binary":
-            binary()
-        elif keyword == "binary_arithmetic":
-            binary_arithmetic()
-        elif keyword == "overflow":
-            overflow()
-        elif keyword == "hexadecimal":
-            hexadecimal()
-        elif keyword == "binary_shifts":
-            binary_shifts()
-        elif keyword == "character_set":
-            character_set()
-        elif keyword == "ascii":
-            ascii()
-        elif keyword == "unicode":
-            unicode()
-        elif keyword == "pixel":
-            pixel()
-        elif keyword == "metadata":
-            metadata()
-        elif keyword == "colour_depth":
-            colour_depth()
-        elif keyword == "resolution":
-            resolution()
-        elif keyword == "image_quality":
-            image_quality()
-        elif keyword == "image_file_size":
-            image_file_size()
-        elif keyword == "sample_rate":
-            sample_rate()
-        elif keyword == "sample_duration":
-            sample_duration()
-        elif keyword == "sample_bit_depth":
-            sample_bit_depth()
-        elif keyword == "playback_quality":
-            playback_quality()
-        elif keyword == "sound_file_size":
-            sound_file_size()
-        elif keyword == "compression":
-            compression()
-        elif keyword == "lossy_compression":
-            lossy_compression()
-        elif keyword == "lossless_compression":
-            lossless_compression()
-        elif keyword == "lan":
-            lan()
-        elif keyword == "wan":
-            wan()
-        elif keyword == "client_server":
-            client_server()
-        elif keyword == "peer_to_peer":
-            peer_to_peer()
-        elif keyword == "wap":
-            wap()
-        elif keyword == "router":
-            router()
-        elif keyword == "switch":
-            switch()
-        elif keyword == "nic":
-            nic()
-        elif keyword == "transmission_media":
-            transmission_media()
-        elif keyword == "internet":
-            internet()
-        elif keyword == "dns":
-            dns()
-        elif keyword == "hosting":
-            hosting()
-        elif keyword == "cloud":
-            cloud()
-        elif keyword == "web_server":
-            web_server()
-        elif keyword == "client":
-            client()
-        elif keyword == "topology":
-            topology()
-        elif keyword == "star":
-            star()
-        elif keyword == "mesh":
-            mesh()
-        elif keyword == "wired":
-            wired()
-        elif keyword == "ethernet":
-            ethernet()
-        elif keyword == "wireless":
-            wireless()
-        elif keyword == "wifi":
-            wifi()
-        elif keyword == "bluetooth":
-            bluetooth()
-        elif keyword == "encryption":
-            encryption()
-        elif keyword == "ip":
-            ip()
-        elif keyword == "mac":
-            mac()
-        elif keyword == "standards":
-            standards()
-        elif keyword == "protocols":
-            protocols()
-        elif keyword == "tcpip":
-            tcpip()
-        elif keyword == "http":
-            http()
-        elif keyword == "https":
-            https()
-        elif keyword == "ftp":
-            ftp()
-        elif keyword == "pop":
-            pop()
-        elif keyword == "imap":
-            imap()
-        elif keyword == "smtp":
-            smtp()
-        elif keyword == "layering":
-            layering()
-        elif keyword == "malware":
-            malware()
-        elif keyword == "social_engineering":
-            social_engineering()
-        elif keyword == "phishing":
-            phishing()
-        elif keyword == "brute_force":
-            brute_force()
-        elif keyword == "dos":
-            dos()
-        elif keyword == "interception":
-            interception()
-        elif keyword == "sql_injection":
-            sql_injection()
-        elif keyword == "penetration_testing":
-            penetration_testing()
-        elif keyword == "antivirus":
-            antivirus()
-        elif keyword == "firewall":
-            firewall()
-        elif keyword == "user_access_levels":
-            user_access_levels()
-        elif keyword == "password":
-            password()
-        elif keyword == "physical_security":
-            physical_security()
-        elif keyword == "systems_softwares":
-            systems_softwares()
-        elif keyword == "operating_system":
-            operating_system()
-        elif keyword == "user_interface":
-            user_interface()
-        elif keyword == "memory_management":
-            memory_management()
-        elif keyword == "multitasking":
-            multitasking()
-        elif keyword == "peripheral_management":
-            peripheral_management()
-        elif keyword == "driver":
-            driver()
-        elif keyword == "user_management":
-            user_management()
-        elif keyword == "file_management":
-            file_management()
-        elif keyword == "utility":
-            utility()
-        elif keyword == "encryption_software":
-            encryption_software()
-        elif keyword == "defragmentation":
-            defragmentation()
-        elif keyword == "data_compression_softwares":
-            data_compression_softwares()
-        elif keyword == "ethical_issues":
-            ethical_issues()
-        elif keyword == "legal_issues":
-            legal_issues()
-        elif keyword == "cultural_issues":
-            cultural_issues()
-        elif keyword == "environmental_issues":
-            environmental_issues()
-        elif keyword == "privacy_issues":
-            privacy_issues()
-        elif keyword == "data_protection_act":
-            data_protection_act()
-        elif keyword == "computer_misuse_act":
-            computer_misuse_act()
-        elif keyword == "copyright_designs_patents_act":
-            copyright_designs_patents_act()
-        elif keyword == "software_licenses":
-            software_licenses()
-        elif keyword == "open_source":
-            open_source()
-        elif keyword == "proprietary":
-            proprietary()
-        else:
-            print("Keyword not found.")
+while True:
+    keyword = input("\nEnter a keyword: ")
+    if keyword == "cpu":
+        cpu()
+    elif keyword == "fetch_execute":
+        fetch_execute()
+    elif keyword == "cu":
+        cu()
+    elif keyword == "registers":
+        registers()
+    elif keyword == "von_neumann":
+        von_neumann()
+    elif keyword == "mar":
+        mar()
+    elif keyword == "mdr":
+        mdr()
+    elif keyword == "pc":
+        pc()
+    elif keyword == "accumulator":
+        accumulator()
+    elif keyword == "clock_speed":
+        clock_speed()
+    elif keyword == "cache_size":
+        cache_size()
+    elif keyword == "cores":
+        cores()
+    elif keyword == "embedded_systems":
+        embedded_systems()
+    elif keyword == "primary_storage":
+        primary_storage()
+    elif keyword == "ram":
+        ram()
+    elif keyword == "rom":
+        rom()
+    elif keyword == "virtual_memory":
+        virtual_memory()
+    elif keyword == "secondary_storage":
+        secondary_storage()
+    elif keyword == "optical_storage":
+        optical_storage()
+    elif keyword == "magnetic_storage":
+        magnetic_storage()
+    elif keyword == "solid_state_storage":
+        solid_state_storage()
+    elif keyword == "storage_capacity":
+        storage_capacity()
+    elif keyword == "storage_speed":
+        storage_speed()
+    elif keyword == "storage_portability":
+        storage_portability()
+    elif keyword == "storage_durability":
+        storage_durability()
+    elif keyword == "storage_reliability":
+        storage_reliability()
+    elif keyword == "storage_cost":
+        storage_cost()
+    elif keyword == "bit":
+        bit()
+    elif keyword == "nibble":
+        nibble()
+    elif keyword == "byte":
+        byte()
+    elif keyword == "kilobyte":
+        kilobyte()
+    elif keyword == "megabyte":
+        megabyte()
+    elif keyword == "gigabyte":
+        gigabyte()
+    elif keyword == "terabyte":
+        terabyte()
+    elif keyword == "petabyte":
+        petabyte()
+    elif keyword == "denary":
+        denary()
+    elif keyword == "binary":
+        binary()
+    elif keyword == "binary_arithmetic":
+        binary_arithmetic()
+    elif keyword == "overflow":
+        overflow()
+    elif keyword == "hexadecimal":
+        hexadecimal()
+    elif keyword == "binary_shifts":
+        binary_shifts()
+    elif keyword == "character_set":
+        character_set()
+    elif keyword == "ascii":
+        ascii()
+    elif keyword == "unicode":
+        unicode()
+    elif keyword == "pixel":
+        pixel()
+    elif keyword == "metadata":
+        metadata()
+    elif keyword == "colour_depth":
+        colour_depth()
+    elif keyword == "resolution":
+        resolution()
+    elif keyword == "image_quality":
+        image_quality()
+    elif keyword == "image_file_size":
+        image_file_size()
+    elif keyword == "sample_rate":
+        sample_rate()
+    elif keyword == "sample_duration":
+        sample_duration()
+    elif keyword == "sample_bit_depth":
+        sample_bit_depth()
+    elif keyword == "playback_quality":
+        playback_quality()
+    elif keyword == "sound_file_size":
+        sound_file_size()
+    elif keyword == "compression":
+        compression()
+    elif keyword == "lossy_compression":
+        lossy_compression()
+    elif keyword == "lossless_compression":
+        lossless_compression()
+    elif keyword == "lan":
+        lan()
+    elif keyword == "wan":
+        wan()
+    elif keyword == "client_server":
+        client_server()
+    elif keyword == "peer_to_peer":
+        peer_to_peer()
+    elif keyword == "wap":
+        wap()
+    elif keyword == "router":
+        router()
+    elif keyword == "switch":
+        switch()
+    elif keyword == "nic":
+        nic()
+    elif keyword == "transmission_media":
+        transmission_media()
+    elif keyword == "internet":
+        internet()
+    elif keyword == "dns":
+        dns()
+    elif keyword == "hosting":
+        hosting()
+    elif keyword == "cloud":
+        cloud()
+    elif keyword == "web_server":
+        web_server()
+    elif keyword == "client":
+        client()
+    elif keyword == "topology":
+        topology()
+    elif keyword == "star":
+        star()
+    elif keyword == "mesh":
+        mesh()
+    elif keyword == "wired":
+        wired()
+    elif keyword == "ethernet":
+        ethernet()
+    elif keyword == "wireless":
+        wireless()
+    elif keyword == "wifi":
+        wifi()
+    elif keyword == "bluetooth":
+        bluetooth()
+    elif keyword == "encryption":
+        encryption()
+    elif keyword == "ip":
+        ip()
+    elif keyword == "mac":
+        mac()
+    elif keyword == "standards":
+        standards()
+    elif keyword == "protocols":
+        protocols()
+    elif keyword == "tcpip":
+        tcpip()
+    elif keyword == "http":
+        http()
+    elif keyword == "https":
+        https()
+    elif keyword == "ftp":
+        ftp()
+    elif keyword == "pop":
+        pop()
+    elif keyword == "imap":
+        imap()
+    elif keyword == "smtp":
+        smtp()
+    elif keyword == "layering":
+        layering()
+    elif keyword == "malware":
+        malware()
+    elif keyword == "social_engineering":
+        social_engineering()
+    elif keyword == "phishing":
+        phishing()
+    elif keyword == "brute_force":
+        brute_force()
+    elif keyword == "dos":
+        dos()
+    elif keyword == "interception":
+        interception()
+    elif keyword == "sql_injection":
+        sql_injection()
+    elif keyword == "penetration_testing":
+        penetration_testing()
+    elif keyword == "antivirus":
+        antivirus()
+    elif keyword == "firewall":
+        firewall()
+    elif keyword == "user_access_levels":
+        user_access_levels()
+    elif keyword == "password":
+        password()
+    elif keyword == "physical_security":
+        physical_security()
+    elif keyword == "systems_softwares":
+        systems_softwares()
+    elif keyword == "operating_system":
+        operating_system()
+    elif keyword == "user_interface":
+        user_interface()
+    elif keyword == "memory_management":
+        memory_management()
+    elif keyword == "multitasking":
+        multitasking()
+    elif keyword == "peripheral_management":
+        peripheral_management()
+    elif keyword == "driver":
+        driver()
+    elif keyword == "user_management":
+        user_management()
+    elif keyword == "file_management":
+        file_management()
+    elif keyword == "utility":
+        utility()
+    elif keyword == "encryption_software":
+        encryption_software()
+    elif keyword == "defragmentation":
+        defragmentation()
+    elif keyword == "data_compression_softwares":
+        data_compression_softwares()
+    elif keyword == "ethical_issues":
+        ethical_issues()
+    elif keyword == "legal_issues":
+        legal_issues()
+    elif keyword == "cultural_issues":
+        cultural_issues()
+    elif keyword == "environmental_issues":
+        environmental_issues()
+    elif keyword == "privacy_issues":
+        privacy_issues()
+    elif keyword == "data_protection_act":
+        data_protection_act()
+    elif keyword == "computer_misuse_act":
+        computer_misuse_act()
+    elif keyword == "copyright_designs_patents_act":
+        copyright_designs_patents_act()
+    elif keyword == "software_licenses":
+        software_licenses()
+    elif keyword == "open_source":
+        open_source()
+    elif keyword == "proprietary":
+        proprietary()
+    else:
+        print("Keyword not found.")
